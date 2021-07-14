@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>404 not found</title>
+    <link rel="shortcut icon" href="images/devchallenges.png" type="image/x-icon" />
+  </head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono:wght@400;700&display=swap');
+
+:root {
+  --gay2: #4f4f4f;
+  --gay1: #bdbdbd;
+  --gay3: #333333;
+  --white: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Space Mono', monospace, Verdana, Geneva, Tahoma, sans-serif;
+}
+a {
+  color: inherit;
+}
+
+body {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  margin: auto;
+  padding: 1.25rem 0 1rem 1.5rem;
+  height: 100%;
+  width: 100%;
+  max-width: 1280px;
+}
+
+header h1 {
+  font-family: 'Inconsolata', monospace, Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--gay3);
+}
+
+main .scarecrow {
+  text-align: center;
+  width: 100%;
+  height: 13.75rem;
+  margin-top: 4rem;
+}
+
+main .scarecrow img {
+  width: auto;
+  height: 100%;
+  pointer-events: none;
+}
+
+main .text {
+  width: 100%;
+  margin-top: 4rem;
+}
+
+main .text h2 {
+  font-size: 2.55rem;
+  color: var(--gay3);
+}
+
+main .text p {
+  font-size: 1.125rem;
+  margin-top: 1.8rem;
+  max-width: 23.9rem;
+  color: var(--gay2);
+}
+
+
+
+main .text button {
+  font-size: 0.875rem;
+  font-weight: 700;
+  margin-top: 4rem;
+  padding: 1.5rem 2.68rem;
+  border: 0;
+  cursor: pointer;
+  color: var(--white);
+  background-color: var(--gay3);
+  transition: all 0.4s;
+}
+
+main .text button:hover{
+  filter: brightness(70%);
+}
+
+footer p {
+  text-align: center;
+  margin-top: 7.125rem;
+  font-size: 0.79rem;
+  font-weight: 700;
+  color: var(--gay1);
+}
+
+@media screen and (min-width: 375px) {
+  footer p {
+    font-size: 0.875rem;
+  }
+}
+
+@media screen and (min-width: 499px) {
+  main .text h2 {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  main > div {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 846px) {
+  main .scarecrow img {
+    height: 25.875rem;
+  }
+}
+
+@media screen and (min-width: 973px) {
+  main .text p {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1141px) {
+  main .text h2 {
+    font-size: 3.5rem;
+  }
+}
+
+      
+    </style>
+  <body class="light">
+    <div class="container">
+      <header>
+        <h1>404 not found</h1>
+      </header>
+      <main>
+        <div>
+          <div class="scarecrow">
+            <img class="scarecrow-img" src="images/Scarecrow.png" alt="Scarecrow" />
+          </div>
+          <div class="text">
+            <h2>I have bad news for you</h2>
+            <p>The page you are looking for might be removed or is temporarily unavailable</p>
+            <button>Back to homepage</button>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <p>
+          created by Santa claus - devChallenges.io
+          
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
